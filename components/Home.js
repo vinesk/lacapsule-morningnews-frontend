@@ -13,7 +13,7 @@ function Home() {
   const [topArticle, setTopArticle] = useState({});
 
   useEffect(() => {
-    fetch("https://lacapsule-morningnews-backend.vercel.app/articles")
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/articles`)
       .then((response) => response.json())
       .then((data) => {
         setTopArticle(data.articles[0]);

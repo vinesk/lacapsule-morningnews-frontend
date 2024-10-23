@@ -16,7 +16,7 @@ function Article(props) {
     }
 
     fetch(
-      `https://lacapsule-morningnews-backend.vercel.app/users/canBookmark/${user.token}`
+      `${process.env.NEXT_PUBLIC_BACKEND_URL}/users/canBookmark/${user.token}`
     )
       .then((response) => response.json())
       .then((data) => {

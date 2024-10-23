@@ -26,7 +26,7 @@ function Header() {
   }, []);
 
   const handleRegister = () => {
-    fetch("https://lacapsule-morningnews-backend.vercel.app/users/signup", {
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/users/signup`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -46,7 +46,7 @@ function Header() {
   };
 
   const handleConnection = () => {
-    fetch("https://lacapsule-morningnews-backend.vercel.app/users/signin", {
+    fetch(`${process.env.NEXT_PUBLIC_BACKEND_URL}/users/signin`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
