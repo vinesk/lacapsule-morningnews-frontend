@@ -26,7 +26,7 @@
 
 ## Setup
 
-###Frontend
+### Frontend
 
 1. Clone the frotend repo:
 
@@ -53,7 +53,7 @@
    npm run dev
    ```
 
-###Backend
+### Backend
 
 1. Clone the backend repo:
 
@@ -86,11 +86,6 @@
 - **Browse News**: View TechCrunch articles.
 - **Bookmark**: Save favorite articles.
 - **Hide**: Mark articles as read to hide them.
-
-## Future Improvements
-
-- Add dark mode.
-- Additional filters (category, popularity).
 
 ## License
 
