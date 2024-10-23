@@ -31,7 +31,7 @@
 1. Clone the frotend repo:
 
    ```bash
-   git clone https://github.com/yourusername/lacapsule-morningnews-frontend.git
+   git clone https://github.com/vinesk/lacapsule-morningnews-frontend.git
    cd lacapsule-morningnews-frontend
    ```
 
@@ -58,7 +58,7 @@
 1. Clone the backend repo:
 
    ```bash
-   git clone https://github.com/yourusername/lacapsule-morningnews-backend.git
+   git clone https://github.com/vinesk/lacapsule-morningnews-backend.git
    cd lacapsule-morningnews-backend
    ```
 
