@@ -28,7 +28,7 @@
 
 ### Frontend
 
-1. Clone the frotend repo:
+1. Clone the frontend repo:
 
    ```bash
    git clone https://github.com/vinesk/lacapsule-morningnews-frontend.git
